@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		022D78621AA6DB0C00471612 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 022D78611AA6DB0C00471612 /* main.m */; };
+		022D78651AA6DB0C00471612 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 022D78641AA6DB0C00471612 /* AppDelegate.m */; };
+		022D78681AA6DB0C00471612 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 022D78671AA6DB0C00471612 /* ViewController.m */; };
+		022D786B1AA6DB0C00471612 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 022D78691AA6DB0C00471612 /* Main.storyboard */; };
+		022D786D1AA6DB0C00471612 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 022D786C1AA6DB0C00471612 /* Images.xcassets */; };
+		022D78701AA6DB0C00471612 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 022D786E1AA6DB0C00471612 /* LaunchScreen.xib */; };
+		022D787C1AA6DB0C00471612 /* APRemindTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 022D787B1AA6DB0C00471612 /* APRemindTests.m */; };
+		022D78871AA6DB3900471612 /* APRemindView.m in Sources */ = {isa = PBXBuildFile; fileRef = 022D78861AA6DB3900471612 /* APRemindView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		022D78761AA6DB0C00471612 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 022D78541AA6DB0C00471612 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 022D785B1AA6DB0C00471612;
+			remoteInfo = APRemind;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		022D785C1AA6DB0C00471612 /* APRemind.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = APRemind.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		022D78601AA6DB0C00471612 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		022D78611AA6DB0C00471612 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		022D78631AA6DB0C00471612 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		022D78641AA6DB0C00471612 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		022D78661AA6DB0C00471612 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		022D78671AA6DB0C00471612 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		022D786A1AA6DB0C00471612 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		022D786C1AA6DB0C00471612 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		022D786F1AA6DB0C00471612 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		022D78751AA6DB0C00471612 /* APRemindTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = APRemindTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		022D787A1AA6DB0C00471612 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		022D787B1AA6DB0C00471612 /* APRemindTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = APRemindTests.m; sourceTree = "<group>"; };
+		022D78851AA6DB3900471612 /* APRemindView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APRemindView.h; sourceTree = "<group>"; };
+		022D78861AA6DB3900471612 /* APRemindView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APRemindView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		022D78591AA6DB0C00471612 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		022D78721AA6DB0C00471612 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		022D78531AA6DB0C00471612 = {
+			isa = PBXGroup;
+			children = (
+				022D785E1AA6DB0C00471612 /* APRemind */,
+				022D78781AA6DB0C00471612 /* APRemindTests */,
+				022D785D1AA6DB0C00471612 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		022D785D1AA6DB0C00471612 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				022D785C1AA6DB0C00471612 /* APRemind.app */,
+				022D78751AA6DB0C00471612 /* APRemindTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		022D785E1AA6DB0C00471612 /* APRemind */ = {
+			isa = PBXGroup;
+			children = (
+				022D78631AA6DB0C00471612 /* AppDelegate.h */,
+				022D78641AA6DB0C00471612 /* AppDelegate.m */,
+				022D78661AA6DB0C00471612 /* ViewController.h */,
+				022D78671AA6DB0C00471612 /* ViewController.m */,
+				022D78851AA6DB3900471612 /* APRemindView.h */,
+				022D78861AA6DB3900471612 /* APRemindView.m */,
+				022D78691AA6DB0C00471612 /* Main.storyboard */,
+				022D786C1AA6DB0C00471612 /* Images.xcassets */,
+				022D786E1AA6DB0C00471612 /* LaunchScreen.xib */,
+				022D785F1AA6DB0C00471612 /* Supporting Files */,
+			);
+			path = APRemind;
+			sourceTree = "<group>";
+		};
+		022D785F1AA6DB0C00471612 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				022D78601AA6DB0C00471612 /* Info.plist */,
+				022D78611AA6DB0C00471612 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		022D78781AA6DB0C00471612 /* APRemindTests */ = {
+			isa = PBXGroup;
+			children = (
+				022D787B1AA6DB0C00471612 /* APRemindTests.m */,
+				022D78791AA6DB0C00471612 /* Supporting Files */,
+			);
+			path = APRemindTests;
+			sourceTree = "<group>";
+		};
+		022D78791AA6DB0C00471612 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				022D787A1AA6DB0C00471612 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		022D785B1AA6DB0C00471612 /* APRemind */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 022D787F1AA6DB0C00471612 /* Build configuration list for PBXNativeTarget "APRemind" */;
+			buildPhases = (
+				022D78581AA6DB0C00471612 /* Sources */,
+				022D78591AA6DB0C00471612 /* Frameworks */,
+				022D785A1AA6DB0C00471612 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = APRemind;
+			productName = APRemind;
+			productReference = 022D785C1AA6DB0C00471612 /* APRemind.app */;
+			productType = "com.apple.product-type.application";
+		};
+		022D78741AA6DB0C00471612 /* APRemindTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 022D78821AA6DB0C00471612 /* Build configuration list for PBXNativeTarget "APRemindTests" */;
+			buildPhases = (
+				022D78711AA6DB0C00471612 /* Sources */,
+				022D78721AA6DB0C00471612 /* Frameworks */,
+				022D78731AA6DB0C00471612 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				022D78771AA6DB0C00471612 /* PBXTargetDependency */,
+			);
+			name = APRemindTests;
+			productName = APRemindTests;
+			productReference = 022D78751AA6DB0C00471612 /* APRemindTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		022D78541AA6DB0C00471612 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = he15his;
+				TargetAttributes = {
+					022D785B1AA6DB0C00471612 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					022D78741AA6DB0C00471612 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 022D785B1AA6DB0C00471612;
+					};
+				};
+			};
+			buildConfigurationList = 022D78571AA6DB0C00471612 /* Build configuration list for PBXProject "APRemind" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 022D78531AA6DB0C00471612;
+			productRefGroup = 022D785D1AA6DB0C00471612 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				022D785B1AA6DB0C00471612 /* APRemind */,
+				022D78741AA6DB0C00471612 /* APRemindTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		022D785A1AA6DB0C00471612 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				022D786B1AA6DB0C00471612 /* Main.storyboard in Resources */,
+				022D78701AA6DB0C00471612 /* LaunchScreen.xib in Resources */,
+				022D786D1AA6DB0C00471612 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		022D78731AA6DB0C00471612 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		022D78581AA6DB0C00471612 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				022D78871AA6DB3900471612 /* APRemindView.m in Sources */,
+				022D78681AA6DB0C00471612 /* ViewController.m in Sources */,
+				022D78651AA6DB0C00471612 /* AppDelegate.m in Sources */,
+				022D78621AA6DB0C00471612 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		022D78711AA6DB0C00471612 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				022D787C1AA6DB0C00471612 /* APRemindTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		022D78771AA6DB0C00471612 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 022D785B1AA6DB0C00471612 /* APRemind */;
+			targetProxy = 022D78761AA6DB0C00471612 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		022D78691AA6DB0C00471612 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				022D786A1AA6DB0C00471612 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		022D786E1AA6DB0C00471612 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				022D786F1AA6DB0C00471612 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		022D787D1AA6DB0C00471612 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		022D787E1AA6DB0C00471612 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		022D78801AA6DB0C00471612 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = APRemind/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		022D78811AA6DB0C00471612 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = APRemind/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		022D78831AA6DB0C00471612 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = APRemindTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/APRemind.app/APRemind";
+			};
+			name = Debug;
+		};
+		022D78841AA6DB0C00471612 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = APRemindTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/APRemind.app/APRemind";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		022D78571AA6DB0C00471612 /* Build configuration list for PBXProject "APRemind" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				022D787D1AA6DB0C00471612 /* Debug */,
+				022D787E1AA6DB0C00471612 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		022D787F1AA6DB0C00471612 /* Build configuration list for PBXNativeTarget "APRemind" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				022D78801AA6DB0C00471612 /* Debug */,
+				022D78811AA6DB0C00471612 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		022D78821AA6DB0C00471612 /* Build configuration list for PBXNativeTarget "APRemindTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				022D78831AA6DB0C00471612 /* Debug */,
+				022D78841AA6DB0C00471612 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 022D78541AA6DB0C00471612 /* Project object */;
+}

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4bR-JO-cN5">
+                                <rect key="frame" x="50" y="200" width="60" height="30"/>
+                                <state key="normal" title="正确提醒">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="sucessRemindAction:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="DAe-qI-mX3"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SvI-gZ-Fnc">
+                                <rect key="frame" x="490" y="200" width="60" height="30"/>
+                                <state key="normal" title="错误提醒">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="faileRemindAction:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="kCj-hG-hb9"/>
+                                </connections>
+                            </button>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="400" translatesAutoresizingMaskIntoConstraints="NO" id="M1i-aB-BG9">
+                                <rect key="frame" x="18" y="70" width="564" height="31"/>
+                                <connections>
+                                    <action selector="sliderValueChanged:" destination="vXZ-lx-hvc" eventType="valueChanged" id="dLA-V2-A73"/>
+                                </connections>
+                            </slider>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i6l-i7-bRd">
+                                <rect key="frame" x="246" y="135" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="i6l-i7-bRd" secondAttribute="centerX" constant="33" id="0XX-J9-kXN"/>
+                            <constraint firstItem="M1i-aB-BG9" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="50" id="5Ih-o6-M1m"/>
+                            <constraint firstAttribute="trailing" secondItem="M1i-aB-BG9" secondAttribute="trailing" constant="20" id="8vi-Q0-Bem"/>
+                            <constraint firstItem="i6l-i7-bRd" firstAttribute="top" secondItem="M1i-aB-BG9" secondAttribute="bottom" constant="35" id="DeJ-CX-q0z"/>
+                            <constraint firstItem="4bR-JO-cN5" firstAttribute="top" secondItem="M1i-aB-BG9" secondAttribute="bottom" constant="100" id="IF2-qE-Grq"/>
+                            <constraint firstAttribute="trailing" secondItem="SvI-gZ-Fnc" secondAttribute="trailing" constant="50" id="WJR-Q6-MaR"/>
+                            <constraint firstItem="4bR-JO-cN5" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="50" id="hEC-ag-4qf"/>
+                            <constraint firstItem="M1i-aB-BG9" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="20" id="p4f-eW-qWZ"/>
+                            <constraint firstItem="4bR-JO-cN5" firstAttribute="top" secondItem="SvI-gZ-Fnc" secondAttribute="top" id="xkl-yr-GKi"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="label" destination="i6l-i7-bRd" id="ko0-tf-A6d"/>
+                        <outlet property="slider" destination="M1i-aB-BG9" id="59h-t6-mZQ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
